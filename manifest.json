@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Local AI Search Assistant",
+  "version": "1.0",
+  "description": "Display local AI results alongside Google search results.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["nlp.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
