@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Local AI Search Assistant",
-  "version": "1.0",
+  "name": "Hitarth's AI Search Assistant",
+  "version": "1.5",
   "description": "Display local AI results alongside Google search results.",
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
